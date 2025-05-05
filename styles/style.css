@@ -60,12 +60,11 @@ ol {
   grid-template-areas: "result content";
   align-items: end;
   gap: 30px;
-  min-height: 537px;
 }
 
 .result__video-container {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   height: 386px;
 }
 
@@ -73,7 +72,7 @@ ol {
   object-position: center;
   object-fit: cover;
   width: 100%;
-  height: 386px;
+  height: 100%;
 }
 
 .search-form {
@@ -85,7 +84,6 @@ ol {
 .result {
   grid-area: result;
   width: 711px;
-  height: 456px;
 }
 
 .title {
@@ -156,7 +154,8 @@ ol {
 
 .content__list-container {
   position: relative;
-  max-height: 299px;
+  height: 299px;
+  width: 399px;
   overflow: auto;
 }
 
